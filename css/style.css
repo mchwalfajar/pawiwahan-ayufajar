@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -495,6 +495,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #ffffff;
   background-image: url("../images/overlay.JPG");
   background-size: cover;
+  background-position: calc(50% + 20px) calc(50% + 10px);
   height: 100%;
   width: 100%;
   position: fixed;
@@ -502,6 +503,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   z-index: 2000;
 }
+
 #overlay .content {
   background: rgba(0, 0, 0, 0.7);
   position: relative;
@@ -878,13 +880,13 @@ h1, h2, h3, h4, h5, h6, figure {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
 }
 .fh5co-social-icons li a {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   color: #113468;
   padding-left: 10px;
   padding-right: 10px;
@@ -909,7 +911,6 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   top: 0.05em;
   font-family: "icomoon";
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1370,7 +1371,7 @@ form label {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   width: 100px;
   height: 100px;
 }
@@ -1428,9 +1429,6 @@ form label {
 }
 #fh5co-testimonial .list-group .name{
   font-weight: bold;
-}
-#fh5co-testimonial #button-send{
-  /*margin-top: 25px;*/
 }
 
 .feature-left {
@@ -1634,7 +1632,6 @@ form label {
   position: absolute;
   right: 0px;
   font-family: "icomoon";
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
