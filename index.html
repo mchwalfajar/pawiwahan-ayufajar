@@ -262,9 +262,13 @@ Allah) bagi kaum yang berpikir.
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
 
 <script>
-	day = 23; month = 12-7; year = 2025;
-	hour = 8; minute = 0;
-	var d = new Date(year, month, day, hour, minute, 0, 0);
+	const day = 23;
+	const month = 6 - 1;
+	const year = 2025;
+	const hour = 7;
+	const minute = 0;
+
+	const d = new Date(year, month, day, hour, minute, 0, 0);
 
 	simplyCountdown('.simply-countdown-wedding', {
 		year: d.getFullYear(),
